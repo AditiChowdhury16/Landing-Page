@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&familyswald:wght@300;600&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:'Oswald', sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url("1342989.png");
+    background-repeat: cover;
+    background-size: cover;
+}
+.container{
+     width:85%;
+     margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{ 
+    float:left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size:inline;
+    color:maroon ;
+    
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+    color:maroon;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding:0px 5px;
+}
+nav ul li a{
+    color: #fff ;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+
+}
+nav ul li a:hover{
+    background-color: maroon;
+    transition:0.5s ease;
+}
+.article{
+    width :50%;
+    margin:auto;
+    text-align: centre;
+    transform: translateY(25vh);
+}
+.article h1{
+    font-size:36px ;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom:25px;
+}
+.article p{
+    font-size: 18px;
+    color: #7e7e7e;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+} 
+.article .btn:hover{
+    background-color: #434343;
+    transition: 0.5s ease;
+}
+.center{
+    background-image:url("../img.jpg");
+    text-align: center;
+}
+#services .box{
+    border: 2px solid brown;
+    color:aliceblue;
+    text-align: center;
+}
+#services .box img{
+    height: 160px; 
+}
+
+
+.h-primary{
+   font-size: 3.8rem;
+   padding: 12px; 
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    color: white;
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+.box-content{
+    margin-left: 1 rem;
+    margin-right: 1 rem;
+}
+.container-2{
+    background-image: url("asta.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url("asta.jpg");
+    
+}
+.about-col-1 img{
+    margin-top:60px;
+    margin-left: 30px;
+    width: 60%;
+    height: auto;
+}
+.about-col-2{
+    flex-basis: 60%;
+    margin-top:100px;
+    color: #e2e7e6;
+    text-decoration: underline;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 350px;
+}
+/* --------services----------- */
+#services{
+    padding: 30px 0;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    color: #e2e7e6;
+    
+}
+.services-list div{
+    background-color: rgb(135, 12, 12);
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+    transition: background 0.5s,transform 0.5s;
+}
+.container-3{
+    background-image: url("asta.jpg");
+}
+.services-list div i{
+    font-size:  50px;
+    margin-bottom: 30px;
+}
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.services-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div:hover{
+    background:black;
+    transform: translateY(-10px);
+
+}
+
+/* ------------------------------reccomend--------------- */
+
+/* footer */
+.foot-panel1{
+    background-color:rgb(27, 24, 24);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color:black;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color:black;
+    color: white;
+    border-top:0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+
+} 
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size:cover;
+    height:50px;
+    width:100px;
+}
